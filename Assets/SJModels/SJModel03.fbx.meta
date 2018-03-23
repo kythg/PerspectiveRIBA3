@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 36365ec39bc7a458db1b193467a4664e
+timeCreated: 1512847275
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BasePoint
+    100002: Boxes
+    100004: BoxesLayout
+    100006: CircleSquare
+    100008: CircleSquareLayout
+    100010: CubeCross
+    100012: Didecagon
+    100014: Flat Circle
+    100016: Flat Didecagon
+    100018: Frame1
+    100020: Frame1Arrayed
+    100022: Hexagon
+    100024: HumanTable
+    100026: Icosahedron
+    100028: Object_1
+    100030: Object_10
+    100032: Object_10_MeshPart0
+    100034: Object_10_MeshPart1
+    100036: Object_11
+    100038: Object_12
+    100040: Object_13
+    100042: Object_14
+    100044: Object_15
+    100046: Object_16
+    100048: Object_17
+    100050: Object_18
+    100052: Object_19
+    100054: Object_20
+    100056: Object_21
+    100058: Object_22
+    100060: Object_23
+    100062: Object_24
+    100064: Object_25
+    100066: Object_26
+    100068: Object_27
+    100070: Object_28
+    100072: Object_29
+    100074: Object_3
+    100076: Object_30
+    100078: Object_31
+    100080: Object_32
+    100082: Object_33
+    100084: Object_34
+    100086: Object_35
+    100088: Object_36
+    100090: Object_37
+    100092: Object_38
+    100094: Object_39
+    100096: Object_4
+    100098: Object_40
+    100100: Object_41
+    100102: Object_42
+    100104: Object_43
+    100106: Object_43 1
+    100108: Object_43 2
+    100110: Object_43 3
+    100112: Object_43 4
+    100114: Object_43 5
+    100116: Object_44
+    100118: Object_44 1
+    100120: Object_44 2
+    100122: Object_44 3
+    100124: Object_44 4
+    100126: Object_44 5
+    100128: Object_45
+    100130: Object_46
+    100132: Object_46 1
+    100134: Object_46 2
+    100136: Object_46 3
+    100138: Object_46 4
+    100140: Object_46 5
+    100142: Object_47
+    100144: Object_47 1
+    100146: Object_47 2
+    100148: Object_47 3
+    100150: Object_47 4
+    100152: Object_47 5
+    100154: Object_48
+    100156: Object_48 1
+    100158: Object_48 2
+    100160: Object_48 3
+    100162: Object_48 4
+    100164: Object_48 5
+    100166: Object_49
+    100168: Object_49 1
+    100170: Object_49 2
+    100172: Object_49 3
+    100174: Object_49 4
+    100176: Object_49 5
+    100178: Object_5
+    100180: Object_50
+    100182: Object_50 1
+    100184: Object_50 2
+    100186: Object_50 3
+    100188: Object_50 4
+    100190: Object_50 5
+    100192: Object_51
+    100194: Object_51 1
+    100196: Object_51 2
+    100198: Object_51 3
+    100200: Object_51 4
+    100202: Object_51 5
+    100204: Object_52
+    100206: Object_53
+    100208: Object_53 1
+    100210: Object_53 2
+    100212: Object_53 3
+    100214: Object_53 4
+    100216: Object_53 5
+    100218: Object_6
+    100220: Object_7
+    100222: Object_8
+    100224: Object_9
+    100226: PlinthBase
+    100228: PlinthBaseLayout
+    100230: //RootNode
+    100232: SquareStar
+    100234: SquareStarArray
+    400000: BasePoint
+    400002: Boxes
+    400004: BoxesLayout
+    400006: CircleSquare
+    400008: CircleSquareLayout
+    400010: CubeCross
+    400012: Didecagon
+    400014: Flat Circle
+    400016: Flat Didecagon
+    400018: Frame1
+    400020: Frame1Arrayed
+    400022: Hexagon
+    400024: HumanTable
+    400026: Icosahedron
+    400028: Object_1
+    400030: Object_10
+    400032: Object_10_MeshPart0
+    400034: Object_10_MeshPart1
+    400036: Object_11
+    400038: Object_12
+    400040: Object_13
+    400042: Object_14
+    400044: Object_15
+    400046: Object_16
+    400048: Object_17
+    400050: Object_18
+    400052: Object_19
+    400054: Object_20
+    400056: Object_21
+    400058: Object_22
+    400060: Object_23
+    400062: Object_24
+    400064: Object_25
+    400066: Object_26
+    400068: Object_27
+    400070: Object_28
+    400072: Object_29
+    400074: Object_3
+    400076: Object_30
+    400078: Object_31
+    400080: Object_32
+    400082: Object_33
+    400084: Object_34
+    400086: Object_35
+    400088: Object_36
+    400090: Object_37
+    400092: Object_38
+    400094: Object_39
+    400096: Object_4
+    400098: Object_40
+    400100: Object_41
+    400102: Object_42
+    400104: Object_43
+    400106: Object_43 1
+    400108: Object_43 2
+    400110: Object_43 3
+    400112: Object_43 4
+    400114: Object_43 5
+    400116: Object_44
+    400118: Object_44 1
+    400120: Object_44 2
+    400122: Object_44 3
+    400124: Object_44 4
+    400126: Object_44 5
+    400128: Object_45
+    400130: Object_46
+    400132: Object_46 1
+    400134: Object_46 2
+    400136: Object_46 3
+    400138: Object_46 4
+    400140: Object_46 5
+    400142: Object_47
+    400144: Object_47 1
+    400146: Object_47 2
+    400148: Object_47 3
+    400150: Object_47 4
+    400152: Object_47 5
+    400154: Object_48
+    400156: Object_48 1
+    400158: Object_48 2
+    400160: Object_48 3
+    400162: Object_48 4
+    400164: Object_48 5
+    400166: Object_49
+    400168: Object_49 1
+    400170: Object_49 2
+    400172: Object_49 3
+    400174: Object_49 4
+    400176: Object_49 5
+    400178: Object_5
+    400180: Object_50
+    400182: Object_50 1
+    400184: Object_50 2
+    400186: Object_50 3
+    400188: Object_50 4
+    400190: Object_50 5
+    400192: Object_51
+    400194: Object_51 1
+    400196: Object_51 2
+    400198: Object_51 3
+    400200: Object_51 4
+    400202: Object_51 5
+    400204: Object_52
+    400206: Object_53
+    400208: Object_53 1
+    400210: Object_53 2
+    400212: Object_53 3
+    400214: Object_53 4
+    400216: Object_53 5
+    400218: Object_6
+    400220: Object_7
+    400222: Object_8
+    400224: Object_9
+    400226: PlinthBase
+    400228: PlinthBaseLayout
+    400230: //RootNode
+    400232: SquareStar
+    400234: SquareStarArray
+    2300000: Object_1
+    2300002: Object_10_MeshPart0
+    2300004: Object_10_MeshPart1
+    2300006: Object_3
+    2300008: Object_4
+    2300010: Object_5
+    2300012: Object_6
+    2300014: Object_7
+    2300016: Object_8
+    2300018: Object_9
+    3300000: Object_1
+    3300002: Object_10_MeshPart0
+    3300004: Object_10_MeshPart1
+    3300006: Object_3
+    3300008: Object_4
+    3300010: Object_5
+    3300012: Object_6
+    3300014: Object_7
+    3300016: Object_8
+    3300018: Object_9
+    4300000: Object_1
+    4300002: Object_3
+    4300004: Object_4
+    4300006: Object_5
+    4300008: Object_6
+    4300010: Object_7
+    4300012: Object_8
+    4300014: Object_9
+    4300016: Object_10_MeshPart0
+    4300018: Object_10_MeshPart1
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_2
+    second: {fileID: 2100000, guid: 82f32b49f36924c069dabcc97b12b838, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
