@@ -251,6 +251,7 @@ ModelImporter:
     2300014: Object_7
     2300016: Object_8
     2300018: Object_9
+    2300020: Object_10
     3300000: Object_1
     3300002: Object_10_MeshPart0
     3300004: Object_10_MeshPart1
@@ -261,6 +262,7 @@ ModelImporter:
     3300014: Object_7
     3300016: Object_8
     3300018: Object_9
+    3300020: Object_10
     4300000: Object_1
     4300002: Object_3
     4300004: Object_4
@@ -271,18 +273,19 @@ ModelImporter:
     4300014: Object_9
     4300016: Object_10_MeshPart0
     4300018: Object_10_MeshPart1
+    4300020: Object_10
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_2
-    second: {fileID: 2100000, guid: 82f32b49f36924c069dabcc97b12b838, type: 2}
+    second: {fileID: 2100000, guid: c6ce0343f0ce34c7694019fdb90d4eaf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -320,6 +323,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

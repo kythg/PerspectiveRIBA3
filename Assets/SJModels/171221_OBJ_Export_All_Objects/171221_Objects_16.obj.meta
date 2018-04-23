@@ -32,22 +32,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: object_1Mat
-    second: {fileID: 2100000, guid: 035901bbe0c624651a72603bc26bf8f0, type: 2}
+    second: {fileID: 2100000, guid: c6ce0343f0ce34c7694019fdb90d4eaf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: object_2Mat
-    second: {fileID: 2100000, guid: 035901bbe0c624651a72603bc26bf8f0, type: 2}
+    second: {fileID: 2100000, guid: c6ce0343f0ce34c7694019fdb90d4eaf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: object_3Mat
-    second: {fileID: 2100000, guid: 035901bbe0c624651a72603bc26bf8f0, type: 2}
+    second: {fileID: 2100000, guid: c6ce0343f0ce34c7694019fdb90d4eaf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: object_4Mat
-    second: {fileID: 2100000, guid: 035901bbe0c624651a72603bc26bf8f0, type: 2}
+    second: {fileID: 2100000, guid: c6ce0343f0ce34c7694019fdb90d4eaf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
