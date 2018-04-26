@@ -19187,7 +19187,7 @@ Transform:
   m_GameObject: {fileID: 2060575558}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 18.71, y: -3.1, z: 500}
-  m_LocalScale: {x: 1, y: 1000, z: 1000}
+  m_LocalScale: {x: 1, y: 1000, z: 1086.1249}
   m_Children: []
   m_Father: {fileID: 2115565486}
   m_RootOrder: 1
@@ -19897,13 +19897,19 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetColorValue
+        - HutongGames.PlayMaker.Actions.SetColorValue
+        - HutongGames.PlayMaker.Actions.SetColorValue
         - HutongGames.PlayMaker.Actions.RandomWait
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 0d5f5c01
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000600000009000000
+        actionHashCodes: bc28af00bc28af00bc28af000d5f5c01
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -19935,24 +19941,69 @@ MonoBehaviour:
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
-        fsmColorParams: []
+        fsmColorParams:
+        - useVariable: 1
+          name: OldFogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: NewFogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: OldAmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: NewAmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: OldObjectColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: NewObjectColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - 
-        byteData: 00
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000001700000001000000
+        paramDataType: 1900000019000000010000001900000019000000010000001900000019000000010000000f0000000f0000001700000001000000
         paramName:
+        - colorVariable
+        - color
+        - everyFrame
+        - colorVariable
+        - color
+        - everyFrame
+        - colorVariable
+        - color
+        - everyFrame
         - min
         - max
         - finishEvent
         - realTime
-        paramDataPos: 00000000010000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        paramDataPos: 00000000010000000000000002000000030000000100000004000000050000000200000000000000010000000000000003000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000100000000000000000000000000000001000000
     - name: What colours to change to
       description: 
       colorIndex: 0
@@ -19979,20 +20030,28 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SelectRandomColor
         - HutongGames.PlayMaker.Actions.SelectRandomColor
         - HutongGames.PlayMaker.Actions.SelectRandomColor
-        - HutongGames.PlayMaker.Actions.SetFogColor
+        - HutongGames.PlayMaker.Actions.EaseColor
+        - HutongGames.PlayMaker.Actions.EaseColor
+        - HutongGames.PlayMaker.Actions.EaseColor
         - HutongGames.PlayMaker.Actions.SetMaterialColor
         - HutongGames.PlayMaker.Actions.SetAmbientLight
+        - HutongGames.PlayMaker.Actions.SetFogColor
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
-        - 
-        - 
         - Select Random Color
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 0000000009000000120000001b0000001d00000023000000
-        actionHashCodes: 6ff759046ff759046ff75904d459d20331ae6403d459d203
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101010101010101
+        actionIsOpen: 01010101010101010101
+        actionStartIndex: 0000000009000000120000001b000000250000002f000000390000003f0000004100000043000000
+        actionHashCodes: 6ff759046ff759046ff759043b34b6023b34b6023b34b60231ae6403d459d203d459d20348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -20083,6 +20142,66 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 20
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 20
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -20090,10 +20209,52 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.99120045, g: 0.5556824, b: 0.30622032, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.5411765, g: 1, b: 0.52156866, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.99254704, g: 0.6669942, b: 0.9889526, a: 1}
+        - useVariable: 1
+          name: NewFogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 0
           name: 
           tooltip: 
@@ -20113,7 +20274,7 @@ MonoBehaviour:
           networkSync: 0
           value: {r: 0.92279947, g: 1, b: 0.240173, a: 1}
         - useVariable: 1
-          name: AmbientColour
+          name: NewAmbientColor
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -20137,57 +20298,91 @@ MonoBehaviour:
           networkSync: 0
           value: {r: 0.64685965, g: 0.1990266, b: 0.20572276, a: 1}
         - useVariable: 1
-          name: Object1Colour
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0, g: 0, b: 0, a: 1}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0.99120045, g: 0.5556824, b: 0.30622032, a: 1}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0.5411765, g: 1, b: 0.52156866, a: 1}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {r: 0.99254704, g: 0.6669942, b: 0.9889526, a: 1}
-        - useVariable: 1
-          name: FogColour
+          name: NewObjectColor
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
-          name: FogColour
+          name: OldObjectColor
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
-          name: Object1Colour
+          name: NewObjectColor
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
-          name: AmbientColour
+          name: Object1Color
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: OldAmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: NewAmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: AmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: OldFogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: NewFogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: FogColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: Object1Color
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: AmbientColor
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: FogColor
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {r: 0, g: 0, b: 0, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 000000
+        stringParams:
+        - 
+        - 
+        - 
+        - FINISHED
+        byteData: 15000000001500000000150000000001010100
         arrayParamSizes: 030000000300000003000000030000000300000003000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmColor
@@ -20198,7 +20393,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmFloat
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f0000001900000019000000010000001400000010000000200000001200000019000000010000001900000001000000
+        paramDataType: 0c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f000000190000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f00000007000000110000001700000001000000140000001000000020000000120000001900000001000000190000000100000019000000010000000f0000001700000001000000
         paramName:
         - colors
         - 
@@ -20227,8 +20422,36 @@ MonoBehaviour:
         - 
         - 
         - storeColor
-        - fogColor
-        - everyFrame
+        - fromValue
+        - toValue
+        - colorVariable
+        - time
+        - speed
+        - delay
+        - easeType
+        - reverse
+        - finishEvent
+        - realTime
+        - fromValue
+        - toValue
+        - colorVariable
+        - time
+        - speed
+        - delay
+        - easeType
+        - reverse
+        - finishEvent
+        - realTime
+        - fromValue
+        - toValue
+        - colorVariable
+        - time
+        - speed
+        - delay
+        - easeType
+        - reverse
+        - finishEvent
+        - realTime
         - gameObject
         - materialIndex
         - material
@@ -20237,8 +20460,13 @@ MonoBehaviour:
         - everyFrame
         - ambientColor
         - everyFrame
-        paramDataPos: 0000000000000000010000000200000001000000000000000100000002000000030000000200000004000000050000000600000003000000030000000400000005000000070000000400000008000000090000000a000000050000000600000007000000080000000b0000000c00000000000000000000000000000000000000000000000d000000010000000e00000002000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000010000000000000001000000
+        - fogColor
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 0000000000000000010000000200000001000000000000000100000002000000030000000200000004000000050000000600000003000000030000000400000005000000070000000400000008000000090000000a000000050000000600000007000000080000000b0000000c0000000d0000000e000000090000000a0000000b000000000000000000000000000000040000000f00000010000000110000000c0000000d0000000e000000050000000100000001000000090000001200000013000000140000000f00000010000000110000000a00000002000000020000000e00000000000000000000000000000000000000150000000f00000016000000100000001700000011000000120000000300000012000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -20253,19 +20481,55 @@ MonoBehaviour:
       vector3Variables: []
       colorVariables:
       - useVariable: 1
-        name: AmbientColour
+        name: AmbientColor
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {r: 0, g: 0, b: 0, a: 1}
       - useVariable: 1
-        name: FogColour
+        name: FogColor
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {r: 0, g: 0, b: 0, a: 1}
       - useVariable: 1
-        name: Object1Colour
+        name: NewAmbientColor
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: NewFogColor
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: NewObjectColor
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: Object1Color
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: OldAmbientColor
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: OldFogColor
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {r: 0, g: 0, b: 0, a: 1}
+      - useVariable: 1
+        name: OldObjectColor
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -20280,7 +20544,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -20290,7 +20554,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
