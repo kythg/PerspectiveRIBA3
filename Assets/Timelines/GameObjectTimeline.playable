@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: GameObjectTimeline
+  m_EditorClassIdentifier: 
+  m_NextId: 0
+  m_Tracks:
+  - {fileID: 114089058801856970}
+  - {fileID: 114990544458625380}
+  - {fileID: 114122793616359848}
+  - {fileID: 114716694460019782}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+  m_DurationMode: 0
+--- !u!114 &114046998680761458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114649347248942426}
+--- !u!114 &114089058801856970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6cf5671577b7344ba25c25b4346ce4, type: 3}
+  m_Name: Recorder Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114746379351453184}
+    m_UnderlyingAsset: {fileID: 114746379351453184}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114089058801856970}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: RecorderClip
+    m_Version: 1
+--- !u!114 &114122793616359848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6cf5671577b7344ba25c25b4346ce4, type: 3}
+  m_Name: Recorder Track2
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114564576804083938}
+    m_UnderlyingAsset: {fileID: 114564576804083938}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114122793616359848}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: RecorderClip
+    m_Version: 1
+--- !u!114 &114166253994800188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 13baf758a6b7b4d97b1f70506f2a6437
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 30
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114376397148428344}
+    - {fileID: 114195983385727110}
+    ownerRecorderSettingsAssetId: 13baf758a6b7b4d97b1f70506f2a6437
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114192692964619668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: 5277ad18-446e-4f16-bb57-fee0da74ec84
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: c5714ed9-cbec-4b88-87cb-4d8118911103
+  m_PreserveAudio: 1
+--- !u!114 &114195983385727110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: a2d1813e-1f31-4556-a4df-6934cb8f36a2
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: 0257a9e5-bab8-45c0-99d0-ed0ac5b49302
+  m_PreserveAudio: 1
+--- !u!114 &114231254662622052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 13baf758a6b7b4d97b1f70506f2a6437
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 60
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114414675916721778}
+    - {fileID: 114634922998063256}
+    ownerRecorderSettingsAssetId: 13baf758a6b7b4d97b1f70506f2a6437
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114294322674204144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: 418660eb-4b1b-4087-ae8b-20e7dd4ad138
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: 96e627a2-f6d0-4ebd-9116-bbdf6adac12a
+  m_PreserveAudio: 1
+--- !u!114 &114376397148428344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 80d0f27c-496c-4f31-ac98-93ca9031054d
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 25ea659d-34a8-4483-8ee4-484eed14c83b
+  m_OutputSize: 720
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 1
+  m_CameraTag: 
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114414675916721778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 006336ab-7075-4c60-aba1-6c16b28bbadf
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: d585891f-1559-4ef0-9f7c-0111e976a6c2
+  m_OutputSize: 0
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 8
+  m_CameraTag: 4
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114493953147575590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 38b4f3d5-f9b4-421b-a0c6-fcf7fc941189
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 6d0bf1c8-5246-4d0b-9d75-3e25e4905bd5
+  m_OutputSize: 0
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 8
+  m_CameraTag: 2
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114564576804083938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114752826794813096}
+--- !u!114 &114628955056514736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114231254662622052}
+--- !u!114 &114634922998063256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: bf94cfeb-5550-43ea-9339-450853714d12
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: e5486278-24eb-4b4a-9688-7e09e6bd9ba8
+  m_PreserveAudio: 1
+--- !u!114 &114649347248942426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 13baf758a6b7b4d97b1f70506f2a6437
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 60
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114493953147575590}
+    - {fileID: 114192692964619668}
+    ownerRecorderSettingsAssetId: 13baf758a6b7b4d97b1f70506f2a6437
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114716694460019782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6cf5671577b7344ba25c25b4346ce4, type: 3}
+  m_Name: Recorder Track3
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114628955056514736}
+    m_UnderlyingAsset: {fileID: 114628955056514736}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114716694460019782}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: RecorderClip
+    m_Version: 1
+--- !u!114 &114746379351453184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 0}
+--- !u!114 &114752826794813096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 13baf758a6b7b4d97b1f70506f2a6437
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 60
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114864589318897334}
+    - {fileID: 114294322674204144}
+    ownerRecorderSettingsAssetId: 13baf758a6b7b4d97b1f70506f2a6437
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114864589318897334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 2f601fb8-f730-40a1-94a2-33c24a0662ae
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 5eb51d7c-90d8-4b06-b900-c851ff7d9638
+  m_OutputSize: 0
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 8
+  m_CameraTag: 3
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114990544458625380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6cf5671577b7344ba25c25b4346ce4, type: 3}
+  m_Name: Recorder Track1
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114046998680761458}
+    m_UnderlyingAsset: {fileID: 114046998680761458}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114990544458625380}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: RecorderClip
+    m_Version: 1
