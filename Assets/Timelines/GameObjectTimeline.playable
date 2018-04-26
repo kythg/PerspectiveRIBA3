@@ -55,7 +55,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114746379351453184}
     m_UnderlyingAsset: {fileID: 114746379351453184}
-    m_Duration: 5
+    m_Duration: 3599.5666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114089058801856970}
     m_EaseInDuration: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114564576804083938}
     m_UnderlyingAsset: {fileID: 114564576804083938}
-    m_Duration: 5
+    m_Duration: 3599.5666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114122793616359848}
     m_EaseInDuration: 0
@@ -199,8 +199,8 @@ MonoBehaviour:
   m_AssetID: 13baf758a6b7b4d97b1f70506f2a6437
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
-  m_FrameRate: 30
-  m_FrameRateExact: 1
+  m_FrameRate: 60
+  m_FrameRateExact: 512
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: front.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 60
-  m_FrameRateExact: 1
+  m_FrameRateExact: 512
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: back.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
@@ -312,11 +312,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 25ea659d-34a8-4483-8ee4-484eed14c83b
-  m_OutputSize: 720
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
-  source: 1
-  m_CameraTag: 
+  source: 8
+  m_CameraTag: 1
   m_FlipFinalOutput: 1
   m_AllowTransparency: 0
   m_CaptureUI: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: d585891f-1559-4ef0-9f7c-0111e976a6c2
-  m_OutputSize: 0
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 8
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 6d0bf1c8-5246-4d0b-9d75-3e25e4905bd5
-  m_OutputSize: 0
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 8
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 60
-  m_FrameRateExact: 1
+  m_FrameRateExact: 512
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: left.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114628955056514736}
     m_UnderlyingAsset: {fileID: 114628955056514736}
-    m_Duration: 5
+    m_Duration: 3599.5666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114716694460019782}
     m_EaseInDuration: 0
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 0}
+  m_Settings: {fileID: 114166253994800188}
 --- !u!114 &114752826794813096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_CaptureEveryNthFrame: 1
   m_FrameRateMode: 1
   m_FrameRate: 60
-  m_FrameRateExact: 1
+  m_FrameRateExact: 512
   m_StartFrame: 0
   m_EndFrame: 10
   m_StartTime: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: movie.<ext>
+    m_Pattern: right.<ext>
   m_DestinationPath:
     m_root: 1
     m_leaf: Recordings
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 5eb51d7c-90d8-4b06-b900-c851ff7d9638
-  m_OutputSize: 0
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 8
@@ -603,7 +603,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114046998680761458}
     m_UnderlyingAsset: {fileID: 114046998680761458}
-    m_Duration: 5
+    m_Duration: 3599.5666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114990544458625380}
     m_EaseInDuration: 0

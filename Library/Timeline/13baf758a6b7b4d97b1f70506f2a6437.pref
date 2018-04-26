@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInFrames: 1
-  timeAreaShownRange: {x: -0.4604159, y: 35.35994}
+  timeInFrames: 0
+  timeAreaShownRange: {x: -83.94229, y: 6446.7676}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1

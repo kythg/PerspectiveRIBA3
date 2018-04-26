@@ -218,11 +218,11 @@ GameObject:
   - component: {fileID: 32406315}
   m_Layer: 0
   m_Name: Left Camera
-  m_TagString: MainCamera
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &32406308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6514,11 +6514,11 @@ GameObject:
   - component: {fileID: 676366281}
   m_Layer: 0
   m_Name: BackCamera
-  m_TagString: MainCamera
+  m_TagString: 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &676366281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16567,6 +16567,79 @@ Transform:
   m_Father: {fileID: 509057912}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1795497923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1795497926}
+  - component: {fileID: 1795497925}
+  - component: {fileID: 1795497924}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1795497924
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795497923}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!320 &1795497925
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795497923}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 13baf758a6b7b4d97b1f70506f2a6437, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 1795497923}
+  - key: {fileID: 114089058801856970, guid: 13baf758a6b7b4d97b1f70506f2a6437, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114990544458625380, guid: 13baf758a6b7b4d97b1f70506f2a6437, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114122793616359848, guid: 13baf758a6b7b4d97b1f70506f2a6437, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 114716694460019782, guid: 13baf758a6b7b4d97b1f70506f2a6437, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1795497926
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795497923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.95, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1797776592
 GameObject:
   m_ObjectHideFlags: 0
@@ -17012,11 +17085,11 @@ GameObject:
   - component: {fileID: 1814917242}
   m_Layer: 0
   m_Name: Right Camera
-  m_TagString: MainCamera
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1814917242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19347,7 +19420,7 @@ GameObject:
   - component: {fileID: 2085887082}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20050,7 +20123,7 @@ MonoBehaviour:
         - 
         actionEnabled: 01010101010101010101
         actionIsOpen: 01010101010101010101
-        actionStartIndex: 0000000009000000120000001b000000250000002f000000390000003f0000004100000043000000
+        actionStartIndex: 0000000019000000320000004b000000550000005f000000690000006f0000007100000073000000
         actionHashCodes: 6ff759046ff759046ff759043b34b6023b34b6023b34b60231ae6403d459d203d459d20348c01101
         unityObjectParams: []
         fsmGameObjectParams: []
@@ -20088,6 +20161,150 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -20249,6 +20466,54 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {r: 0.99254704, g: 0.6669942, b: 0.9889526, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.297225, g: 0.83009267, b: 0.84621274, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.9866403, g: 0.15071207, b: 0.30308792, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.3168601, g: 0.43824953, b: 0.51491654, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.68952453, g: 0.20588027, b: 0.99876523, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.9689585, g: 1, b: 0.040702153, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.4220152, g: 0.18252796, b: 0.12634847, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.58862007, g: 0.47413057, b: 0.95593166, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
           name: NewFogColor
           tooltip: 
@@ -20273,6 +20538,54 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {r: 0.92279947, g: 1, b: 0.240173, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.94807136, g: 1, b: 0.98534155, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.18397005, g: 0.58610654, b: 0.6396923, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.41173834, g: 0.70822966, b: 0.38409704, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.9918399, g: 0.5897669, b: 0.11310248, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.7849401, g: 1, b: 0.8939215, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.7641362, g: 1, b: 0.14676863, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.5620045, g: 0, b: 0.9985353, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
           name: NewAmbientColor
           tooltip: 
@@ -20297,6 +20610,54 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {r: 0.64685965, g: 0.1990266, b: 0.20572276, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.9533223, g: 0.9692969, b: 0.9458624, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.99571246, g: 0.789878, b: 0.09693443, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.9858238, g: 0, b: 0.28489316, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.6475847, g: 0.8117533, b: 0.99921244, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.622314, g: 0.21931764, b: 0.99868643, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 1, g: 0.9812981, b: 0.44339156, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0.41522217, g: 1, b: 0.7906015, a: 1}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         - useVariable: 1
           name: NewObjectColor
           tooltip: 
@@ -20383,7 +20744,7 @@ MonoBehaviour:
         - 
         - FINISHED
         byteData: 15000000001500000000150000000001010100
-        arrayParamSizes: 030000000300000003000000030000000300000003000000
+        arrayParamSizes: 0b0000000b0000000b0000000b0000000b0000000b000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmColor
         - HutongGames.PlayMaker.FsmFloat
@@ -20393,13 +20754,29 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmFloat
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f000000190000000c0000001900000019000000190000000c0000000f0000000f0000000f000000190000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f00000007000000110000001700000001000000140000001000000020000000120000001900000001000000190000000100000019000000010000000f0000001700000001000000
+        paramDataType: 0c00000019000000190000001900000019000000190000001900000019000000190000001900000019000000190000000c0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f000000190000000c00000019000000190000001900000019000000190000001900000019000000190000001900000019000000190000000c0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f000000190000000c00000019000000190000001900000019000000190000001900000019000000190000001900000019000000190000000c0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f0000000f000000190000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f000000070000001100000017000000010000001900000019000000190000000f0000000f0000000f00000007000000110000001700000001000000140000001000000020000000120000001900000001000000190000000100000019000000010000000f0000001700000001000000
         paramName:
         - colors
         - 
         - 
         - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - weights
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - 
         - 
         - 
@@ -20408,7 +20785,23 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - weights
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - 
         - 
         - 
@@ -20417,7 +20810,23 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - weights
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
         - 
         - 
         - 
@@ -20465,8 +20874,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000010000000200000001000000000000000100000002000000030000000200000004000000050000000600000003000000030000000400000005000000070000000400000008000000090000000a000000050000000600000007000000080000000b0000000c0000000d0000000e000000090000000a0000000b000000000000000000000000000000040000000f00000010000000110000000c0000000d0000000e000000050000000100000001000000090000001200000013000000140000000f00000010000000110000000a00000002000000020000000e00000000000000000000000000000000000000150000000f00000016000000100000001700000011000000120000000300000012000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000000000001000000
+        paramDataPos: 00000000000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000001000000000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000020000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000030000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000170000000400000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000005000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002300000024000000250000002600000021000000220000002300000000000000000000000000000004000000270000002800000029000000240000002500000026000000050000000100000001000000090000002a0000002b0000002c0000002700000028000000290000000a00000002000000020000000e000000000000000000000000000000000000002d0000000f0000002e000000100000002f000000110000002a0000000300000012000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000100000000000000010000000000000001000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
